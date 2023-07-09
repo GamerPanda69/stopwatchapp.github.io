@@ -1,0 +1,37 @@
+body {
+    display: block;
+    margin: 8px;
+    background-color:#545b66;
+}
+.Container{
+  margin-top: 90px;
+  align-items: center;
+  text-align: center;
+
+}
+/* To adjust the dimensions of timer*/
+.Timer{
+  font-size: 70px;
+  color: #F3f4f6;
+}
+.Buttons{
+  margin-top: 5px;
+}
+/*Css to make buttons looks gud*/
+.Buttons button {
+  font-size: 25px;
+  padding: 8px 20px;
+  margin: 0 5px;
+  background-color: #223F8E;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+}
+/*While hovering over*/
+.Buttons button:hover{
+  background-color: #1F3778;box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+}
+.Buttons button:active{
+  background-color: #1745C6;
+}
